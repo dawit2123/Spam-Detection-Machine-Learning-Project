@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import joblib
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -35,7 +34,6 @@ X_train, X_test, Y_train, Y_test = train_test_split(X_features, Y, test_size=0.2
 
 # Training the Logistic Regression model
 model = LogisticRegression()
-joblib.dump(model, 'model.pkl')
 model.fit(X_train, Y_train)
 # Define the Streamlit app
 def main():
