@@ -37,7 +37,9 @@ model = LogisticRegression()
 model.fit(X_train, Y_train)
 # Define the Streamlit app
 def main():
+    st.text("===============================================")
     st.title("Normal or Spam mail detector made by Group 7")
+    st.text("===============================================")
     image = Image.open('spam.jpeg')
 
     st.image(image)
@@ -61,6 +63,9 @@ if __name__ == '__main__':
     main()
 
 st.subheader("Contributers of this Machine Learning project")
+st.text("============================")
+st.text("Name                  ID)
+st.text("============================")
 st.text("Dawit Zewdu Munie 1307571")
 st.text("Ephrem Habtamu    1308250")
 st.text("Fentahun Mengie   1306919")
