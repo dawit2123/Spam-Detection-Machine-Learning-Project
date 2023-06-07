@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
 st.subheader("Contributers of this Machine Learning project")
 st.text("============================")
-st.text("Name                  ID)
+st.text("Name                  ID")
 st.text("============================")
 st.text("Dawit Zewdu Munie 1307571")
 st.text("Ephrem Habtamu    1308250")
