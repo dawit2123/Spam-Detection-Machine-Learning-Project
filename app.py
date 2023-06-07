@@ -62,8 +62,7 @@ if __name__ == '__main__':
 
 st.subheader("Contributers of this Machine Learning project")
 st.text("Dawit Zewdu Munie 1307571")
-st.text("Dawit Zewdu Munie 1307571")
-st.text("Dawit Zewdu Munie 1307571")
-st.text("Dawit Zewdu Munie 1307571")
-st.text("Dawit Zewdu Munie 1307571")
-
+st.text("Ephrem Habtamu    1308250"
+st.text("Fentahun Mengie   1306919")
+st.text("Jemal Workie      1307712")
+st.text("Solomon Muhye     1309375")
