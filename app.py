@@ -55,9 +55,13 @@ def main():
         # Make prediction
         prediction = model.predict(input_data_features)
         if prediction[0] == 1:
+            st.text("👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇")
             st.subheader("The above mail is : Normal mail")
+            st.text("☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️")
         else:
+            st.text("👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇")
             st.subheader("The above mail is : Spam mail")
+            st.text("☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️")
 
 if __name__ == '__main__':
     main()
