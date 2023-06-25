@@ -44,7 +44,7 @@ def main():
 
     st.image(image)
 
-    st.subheader("Enter an email to check it as spam or normal👇👇👇👇👇👇👇👇👇")
+    st.subheader("Enter an email to check it as spam or normal👇👇👇👇👇👇")
 
     # Input form for the user to enter email text
     input_mail = st.text_area("Email Text", "")
