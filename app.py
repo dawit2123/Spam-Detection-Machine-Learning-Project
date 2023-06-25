@@ -44,7 +44,7 @@ def main():
 
     st.image(image)
 
-    st.subheader("Enter an email to check it as spam or normal")
+    st.subheader("Enter an email to check it as spam or normal👇👇👇👇👇👇👇👇👇")
 
     # Input form for the user to enter email text
     input_mail = st.text_area("Email Text", "")
@@ -56,11 +56,11 @@ def main():
         prediction = model.predict(input_data_features)
         if prediction[0] == 1:
             st.text("👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇")
-            st.subheader("The above mail is : Normal mail")
+            st.subheader("The above mail is : Normal mail😊😊😊😊😊😊")
             st.text("☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️")
         else:
             st.text("👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇")
-            st.subheader("The above mail is : Spam mail")
+            st.subheader("The above mail is : Spam mail😭😭😭😭😭😭😭")
             st.text("☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️☝️")
 
 if __name__ == '__main__':
