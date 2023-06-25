@@ -65,7 +65,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-st.text("👉👉INSTRUCTIONS: This machine learning project is made by Group 7 for educational \n purposes only, and It is fed with a limited amount of Data to train it. You can \n check, for example, by writing in the text area.\n 👉👉NORMAIL EMAIL EXAMPLE: Your assignment has been accepted by the teacher, and \n you can check your results by June 23 , 2023.\n 👉👉SPAM EMAIL EXAMPLE: Congratulations! You've been selected to receive a free \n vacation to Langano Resort, Hawasa. Click here to claim your prize!")
+st.text("👉👉INSTRUCTIONS: This machine learning project is made by Group 7 for educational \n purposes only, and It is fed with a limited amount of Data to train it. You can \n check, for example, by writing the down examples in the text area.\n 👉👉NORMAIL EMAIL EXAMPLE: Your assignment has been accepted by the teacher, and \n you can check your results by June 23 , 2023.\n 👉👉SPAM EMAIL EXAMPLE: Congratulations! You've been selected to receive a free \n vacation to Langano Resort, Hawasa. Click here to claim your prize!")
 st.text("                         ")
 st.text("                         ")
 st.text("                         ")
