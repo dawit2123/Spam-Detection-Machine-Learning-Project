@@ -38,7 +38,7 @@ model.fit(X_train, Y_train)
 # Define the Streamlit app
 def main():
     st.text("💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥")
-    st.title("Normal or Spam email detector made by Group 7")
+    st.title("Normal or Spam email detector")
     st.text("💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥")
     image = Image.open('spam.jpeg')
 
