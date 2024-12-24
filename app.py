@@ -37,9 +37,8 @@ model = LogisticRegression()
 model.fit(X_train, Y_train)
 # Define the Streamlit app
 def main():
-    st.text("💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥")
     st.title("Normal or Spam email detector")
-    st.text("💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥")
+    st.text("💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥")
     image = Image.open('spam.jpeg')
 
     st.image(image)
